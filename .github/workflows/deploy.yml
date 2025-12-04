@@ -30,7 +30,8 @@ jobs:
         shell: bash -l {0}
         run: |
           bash make_env_yaml.sh
-          jupyter lite build --contents content --output-dir dist
+          cat environment.yml
+          jupyter lite build --contents contents --output-dir dist
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
