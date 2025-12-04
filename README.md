@@ -1,5 +1,7 @@
 JupyterLite deployment to try out `scipy-flang` build using `emscripten 4`.
 
+Try it out on github pages at https://ianthomas23.github.io/scipy-4x-deploy/
+
 To deploy locally:
 
 ```bash
