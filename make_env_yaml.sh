@@ -8,5 +8,5 @@ dependencies:
   - xeus
   - xeus-python
   - matplotlib
-  - scipy-flang
+  - scipy
 END
