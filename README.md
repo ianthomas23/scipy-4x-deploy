@@ -7,8 +7,6 @@ To deploy locally:
 ```bash
 micromamba create -f build-environment.yml
 micromamba activate scipy-4x-deploy
-
-bash make_env_yaml.sh
 jupyter lite build --contents contents --output-dir dist
 npx static-handler dist/
 ```

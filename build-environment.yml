@@ -5,6 +5,5 @@ channels:
 dependencies:
   - jupyter_server
   - nodejs=20
-  - pip:
-    - jupyterlite-core
-    - jupyterlite-xeus
+  - jupyterlite-core
+  - jupyterlite-xeus
