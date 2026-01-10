@@ -6,4 +6,5 @@ dependencies:
   - xeus
   - xeus-python
   - matplotlib
+  - pyyaml
   - scipy
